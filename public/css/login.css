@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+   
+    background-color: #f0f0f0;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #ffffff00;
+    padding: 30px;
+    margin: 105px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 22%);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+
+@media (max-width: 767px) {
+    .login-container{
+        background-color: #ffffff00;
+        padding: 30px;
+        margin: 56px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgb(0 0 0 / 22%);
+        width: 100%;
+        max-width: 400px;
+        text-align: center;
+    }
+    
+    
+      
+      }
+
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #ffffff00;
+}
+
+button {
+   
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.login-image{
+    max-width: 50%;
+    
+}
+
+@media (max-width: 767px) {
+    
+.login-image{
+    max-width: 100%;
+    
+}
+  
+  }
+
+.checkbox-lost-password{
+padding: 10px 0px;
+    display: flex;
+    direction: row;
+    justify-content: space-between;
+}
+
+.login-signup-heading{
+    font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
